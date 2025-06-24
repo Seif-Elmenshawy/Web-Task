@@ -1,1 +1,230 @@
+*{
+    overflow-x:clip;
+    box-sizing: border-box;
+    transform: 1s ease-in-out;
+    margin:auto
+}
 
+main{
+    padding: 0 42.5px;
+}
+nav{
+    height:100px;
+    width: 100vw;
+    max-width: 1200px;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: white;
+    top: 0;
+    position: fixed;
+    padding: 10px;
+    z-index: 10000;
+}
+ul{
+    width:100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+li{
+    display: inline;
+}
+.a{
+    text-decoration: none;
+    color:black;
+    font-family: Poppins;
+    padding:10px
+}
+.a:hover{
+    border: 1px solid #039b68 ;
+}
+.Home{
+    padding:10px;
+    font-family: poppins;
+    background-color: #039b68;
+    border-radius: 4px;
+    color:white;
+    text-decoration: none;
+    border: 0 solid transparent;
+}
+.Home:hover{
+    border: 1px solid #039b68;
+    background-color: white;
+    color: #039b68;
+
+}
+.firstpart{
+    background-image: url(https://yaseen-saad.github.io/EcoEnergy/images/HomeDesktopheader.jpg);
+    width:100%;
+    height:450px;
+    top:0;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    font-family: Oleo script, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 35px;
+    color: rgb(0, 115, 96);
+}
+.white{
+    color: white;
+    margin: 0%;
+}
+.wlcom, .what , .tech, .proj, .skill, .future, .services{
+    font-size: 30;
+    font-weight: 200;
+    font-family: Poppins;
+    color:#039b68 ;
+    text-align: center; 
+}
+.part2{
+    color: #039b68;
+    font-family: poppins;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    width:100%;
+    padding:50px;
+}
+.partitems{
+    width:25%;
+}
+.part3{
+    font-family: poppins;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.pat3item{
+    text-align: center;
+    width: 48%;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    border: 1px solid #039b68;
+    background-color: transparent;
+    padding:10px;
+    color: #039b68;
+}
+.button{
+        color: #039b68;
+        text-decoration: none;
+        font-family: poppins;
+}
+.button:hover{
+    color:black;
+}
+.part4{
+    font-family: poppins;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.part4item{
+    width: 48%;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.part5{
+    font-family: poppins;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;   
+}
+.part5img{
+    width:48%;
+    height:400px;
+    margin:10px;
+}
+footer{
+    background-color: #039b68;
+    display:flex;
+    justify-content: center;
+    color:white;
+    flex-wrap:wrap;
+    padding:20px;
+    width:100%;
+}
+.part1p2{
+    background-image: url(https://yaseen-saad.github.io/EcoEnergy/images/About-UsDesktopheader.jpg);
+    color: white;
+    background-size: cover;
+    width: 100%;
+    height:100px;
+    display: flex;
+    font-family: poppins    ;
+    margin: 100px 0;
+}
+p{
+    display: flex;
+    justify-content: flex-start;
+}
+span{
+    color:black
+}
+
+.part2p2{
+    font-family: poppins;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.contain{
+    display: flex;
+    flex-direction: row;
+}
+.p2-2cont{
+    width:20%;
+}
+.part3p2{
+    margin:20px;
+    text-align: center;
+    font-family: poppins;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.p3item{
+    width:30%;
+    border: 1px solid #039b68;
+}
+.part4p2{
+    margin:20px;
+    text-align: center;
+    font-family: poppins;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.p4item{
+        width:20%;
+    border: 1px solid #039b68;
+}
