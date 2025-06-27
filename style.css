@@ -6,7 +6,8 @@
 }
 
 main{
-    padding: 0 42.5px;
+    max-width: 1200px;
+    padding:20px;
 }
 nav{
     height:100px;
@@ -71,14 +72,15 @@ li{
     margin: 0%;
 }
 .wlcom, .what , .tech, .proj, .skill, .future, .services{
-    font-size: 30;
-    font-weight: 200;
+    font-weight: normal;
+    font-size: 50px;
     font-family: Poppins;
     color:#039b68 ;
     text-align: center; 
+    margin:10px;
 }
 .part2{
-    color: #039b68;
+    color: #212529;
     font-family: poppins;
     display: flex;
     justify-content: space-around;
@@ -87,11 +89,14 @@ li{
     flex-wrap: wrap;
     width:100%;
     padding:50px;
+    gap:10px;
 }
 .partitems{
-    width:25%;
+    width:300px;
+    font-weight:10px;
 }
 .part3{
+    background-color: #f9f9f9;;
     font-family: poppins;
     text-align: center;
     display: flex;
@@ -124,6 +129,7 @@ button{
     color:black;
 }
 .part4{
+    background-color: #f9f9f9;;
     font-family: poppins;
     display: flex;
     justify-content: center;
@@ -146,20 +152,15 @@ button{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;   
+    margin-top: 50px;
 }
 .part5img{
-    width:48%;
+    width:47%;
     height:400px;
-    margin:10px;
+    margin:1% 1%;
 }
 footer{
-    background-color: #039b68;
-    display:flex;
-    justify-content: center;
-    color:white;
-    flex-wrap:wrap;
-    padding:20px;
-    width:100%;
+
 }
 .part1p2{
     background-image: url(https://yaseen-saad.github.io/EcoEnergy/images/About-UsDesktopheader.jpg);
@@ -169,7 +170,7 @@ footer{
     height:100px;
     display: flex;
     font-family: poppins    ;
-    margin: 100px 0;
+    margin-top: 100px;
 }
 p{
     display: flex;
@@ -186,11 +187,12 @@ span{
     align-items: center;
     flex-wrap: wrap;
     flex-direction: column;
-    margin-bottom: 20px;
+    margin: 40px 0px;
 }
 .contain{
     display: flex;
     flex-direction: row;
+    margin-top:10px;
 }
 .p2-2cont{
     width:20%;
@@ -225,6 +227,32 @@ span{
     flex-direction: row;
 }
 .p4item{
-        width:20%;
+    width:20%;
+    height:250px;
     border: 1px solid #039b68;
+}
+hr{
+    margin: 50px 0px;
+}
+.p1{
+    background-color:rgb(43, 41, 51);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:white;
+    font-family: poppins;
+    padding:20px 0px;
+}
+.p1p{
+    text-align: center;
+}
+.p2{
+    background-color: #333;
+    display:flex;
+    justify-content: center;
+    text-align:center;
+    color:white;
+    font-family: poppins;
+    font-size: 10px;
+    padding:20px 0px;
 }
